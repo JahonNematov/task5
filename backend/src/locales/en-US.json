@@ -1,0 +1,11 @@
+{
+  "songPrefixes": ["Sweet", "Dark", "Lost", "Wild", "Golden", "Electric", "Midnight", "Summer", "Broken", "Dancing", "Endless", "Frozen", "Rising", "Silent", "Velvet", "Crystal", "Silver", "Burning", "Fading", "Shining"],
+  "songSuffixes": ["Dreams", "Nights", "Love", "Heart", "Soul", "Fire", "Rain", "Stars", "Moon", "Thunder", "Winds", "Skies", "Waves", "Light", "Shadow", "Memory", "Paradise", "Highway", "Symphony", "Melody"],
+  "artistFirstNames": ["John", "Sarah", "Michael", "Emma", "David", "Olivia", "James", "Sophia", "Robert", "Isabella", "William", "Mia", "Richard", "Charlotte", "Thomas", "Amelia", "Daniel", "Harper", "Matthew", "Evelyn"],
+  "artistLastNames": ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Wilson", "Anderson", "Taylor", "Thomas", "Moore", "Jackson", "Martin", "Lee"],
+  "bandPrefixes": ["The", "Black", "Red", "Blue", "White", "Silver", "Golden", "Electric", "Neon", "Crystal", "Velvet", "Cosmic", "Atomic", "Digital", "Sonic"],
+  "bandSuffixes": ["Kings", "Queens", "Warriors", "Rebels", "Angels", "Devils", "Riders", "Dreamers", "Legends", "Prophets", "Wanderers", "Brothers", "Sisters", "Collective", "Society"],
+  "albumPrefixes": ["Tales of", "Journey to", "Rise of the", "Fall of the", "Beyond the", "Through the", "Into the", "Under the", "Above the", "Echoes of", "Shadows of", "Dreams of"],
+  "albumSuffixes": ["Darkness", "Light", "Eternity", "Infinity", "Dreams", "Shadows", "Memories", "Tomorrow", "Yesterday", "Paradise", "Nowhere", "Horizon", "Dawn", "Dusk"],
+  "genres": ["Rock", "Pop", "Jazz", "Blues", "Country", "Hip Hop", "Electronic", "R&B", "Metal", "Folk", "Indie", "Alternative", "Classical", "Reggae", "Punk", "Soul", "Funk", "Dance"]
+}

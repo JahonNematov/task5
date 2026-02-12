@@ -1,0 +1,11 @@
+{
+  "songPrefixes": ["Süße", "Dunkle", "Verlorene", "Wilde", "Goldene", "Elektrische", "Mitternacht", "Sommer", "Gebrochene", "Tanzende", "Endlose", "Gefrorene", "Aufsteigende", "Stille", "Samtene", "Kristall", "Silberne", "Brennende", "Verblassende", "Leuchtende"],
+  "songSuffixes": ["Träume", "Nächte", "Liebe", "Herz", "Seele", "Feuer", "Regen", "Sterne", "Mond", "Donner", "Winde", "Himmel", "Wellen", "Licht", "Schatten", "Erinnerung", "Paradies", "Autobahn", "Symphonie", "Melodie"],
+  "artistFirstNames": ["Hans", "Anna", "Klaus", "Maria", "Wolfgang", "Sophie", "Friedrich", "Emma", "Heinrich", "Lena", "Otto", "Greta", "Ludwig", "Helga", "Karl", "Ingrid", "Franz", "Ursula", "Hermann", "Petra"],
+  "artistLastNames": ["Müller", "Schmidt", "Schneider", "Fischer", "Weber", "Meyer", "Wagner", "Becker", "Schulz", "Hoffmann", "Koch", "Richter", "Klein", "Wolf", "Schröder", "Neumann", "Schwarz", "Zimmermann", "Braun", "Hofmann"],
+  "bandPrefixes": ["Die", "Schwarze", "Rote", "Blaue", "Weiße", "Silberne", "Goldene", "Elektrische", "Neon", "Kristall", "Samt", "Kosmische", "Atomare", "Digitale", "Sonische"],
+  "bandSuffixes": ["Könige", "Königinnen", "Krieger", "Rebellen", "Engel", "Teufel", "Reiter", "Träumer", "Legenden", "Propheten", "Wanderer", "Brüder", "Schwestern", "Kollektiv", "Gesellschaft"],
+  "albumPrefixes": ["Geschichten von", "Reise zu", "Aufstieg der", "Fall der", "Jenseits der", "Durch die", "In die", "Unter dem", "Über dem", "Echos von", "Schatten von", "Träume von"],
+  "albumSuffixes": ["Dunkelheit", "Licht", "Ewigkeit", "Unendlichkeit", "Träume", "Schatten", "Erinnerungen", "Morgen", "Gestern", "Paradies", "Nirgendwo", "Horizont", "Dämmerung", "Abenddämmerung"],
+  "genres": ["Rock", "Pop", "Jazz", "Blues", "Schlager", "Hip Hop", "Elektronisch", "Klassik", "Metal", "Folk", "Indie", "Alternative", "Reggae", "Punk", "Techno", "Soul", "Funk", "Dance"]
+}

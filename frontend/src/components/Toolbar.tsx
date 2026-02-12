@@ -1,5 +1,4 @@
-import React from 'react';
-import { Locale, ViewMode } from '../types';
+import type { Locale, ViewMode } from '../types';
 import { FaTable, FaTh, FaRandom } from 'react-icons/fa';
 
 interface ToolbarProps {
@@ -14,7 +13,7 @@ interface ToolbarProps {
   onViewModeChange: (mode: ViewMode) => void;
 }
 
-export const Toolbar: React.FC<ToolbarProps> = ({
+export const Toolbar = ({
   locale,
   seed,
   likesPerSong,
@@ -24,7 +23,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
   onRandomSeed,
   onLikesPerSongChange,
   onViewModeChange,
-}) => {
+}: ToolbarProps) => {
   return (
     <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-4 shadow-lg">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center gap-4">

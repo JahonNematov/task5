@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Song, SongDetail, Locale } from '../types';
+import { useState } from 'react';
+import type { Song, SongDetail, Locale } from '../types';
 import { api } from '../services/api';
 import { SongDetailModal } from './SongDetailModal';
 

@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { SongDetail } from '../types';
+import { useState, useEffect, useRef } from 'react';
+import type { SongDetail } from '../types';
 import { api } from '../services/api';
 import { MusicPlayer } from '../services/musicPlayer';
 import { FaPlay, FaStop } from 'react-icons/fa';
@@ -7,14 +7,12 @@ import { FaPlay, FaStop } from 'react-icons/fa';
 interface SongDetailViewProps {
   songDetail: SongDetail;
   seed: string;
-  onClose: () => void;
 }
 
-export const SongDetailView: React.FC<SongDetailViewProps> = ({
+export const SongDetailView = ({
   songDetail,
   seed,
-  onClose,
-}) => {
+}: SongDetailViewProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const musicPlayerRef = useRef<MusicPlayer | null>(null);
 

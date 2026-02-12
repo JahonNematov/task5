@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { AppState, Locale, ViewMode } from '../types';
+import type { AppState, Locale, ViewMode } from '../types';
 
 const generateRandomSeed = (): string => {
   return Math.floor(Math.random() * Number.MAX_SAFE_INTEGER).toString();

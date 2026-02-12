@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { SongDetail } from '../types';
+import { useState, useEffect, useRef } from 'react';
+import type { SongDetail } from '../types';
 import { api } from '../services/api';
 import { MusicPlayer } from '../services/musicPlayer';
 import { FaPlay, FaStop, FaTimes } from 'react-icons/fa';
@@ -11,12 +11,12 @@ interface SongDetailModalProps {
   onClose: () => void;
 }
 
-export const SongDetailModal: React.FC<SongDetailModalProps> = ({
+export const SongDetailModal = ({
   songDetail,
   loading,
   seed,
   onClose,
-}) => {
+}: SongDetailModalProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const musicPlayerRef = useRef<MusicPlayer | null>(null);
 

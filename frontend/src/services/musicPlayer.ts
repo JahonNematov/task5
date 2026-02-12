@@ -1,5 +1,5 @@
 import * as Tone from 'tone';
-import { MusicData } from '../types';
+import type { MusicData } from '../types';
 
 export class MusicPlayer {
   private synth: Tone.PolySynth | null = null;

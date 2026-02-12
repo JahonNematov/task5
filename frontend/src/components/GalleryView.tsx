@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Song, Locale } from '../types';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import type { Song, Locale } from '../types';
 import { api } from '../services/api';
 import { GalleryCard } from './GalleryCard';
 
@@ -9,11 +9,11 @@ interface GalleryViewProps {
   likesPerSong: number;
 }
 
-export const GalleryView: React.FC<GalleryViewProps> = ({
+export const GalleryView = ({
   locale,
   seed,
   likesPerSong,
-}) => {
+}: GalleryViewProps) => {
   const [songs, setSongs] = useState<Song[]>([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);

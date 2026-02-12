@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Song, SongDetail, Locale } from '../types';
+import { useState, useEffect, Fragment } from 'react';
+import type { Song, SongDetail, Locale } from '../types';
 import { api } from '../services/api';
 import { SongDetailView } from './SongDetailView';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
@@ -12,13 +12,13 @@ interface TableViewProps {
   onPageChange: (page: number) => void;
 }
 
-export const TableView: React.FC<TableViewProps> = ({
+export const TableView = ({
   locale,
   seed,
   likesPerSong,
   currentPage,
   onPageChange,
-}) => {
+}: TableViewProps) => {
   const [songs, setSongs] = useState<Song[]>([]);
   const [loading, setLoading] = useState(true);
   const [expandedRow, setExpandedRow] = useState<number | null>(null);
@@ -90,7 +90,7 @@ export const TableView: React.FC<TableViewProps> = ({
             </thead>
             <tbody>
               {songs.map((song) => (
-                <React.Fragment key={song.index}>
+                <Fragment key={song.index}>
                   <tr
                     onClick={() => handleRowClick(song)}
                     className="border-b border-gray-200 hover:bg-blue-50 cursor-pointer transition-colors"
@@ -111,15 +111,11 @@ export const TableView: React.FC<TableViewProps> = ({
                         <SongDetailView
                           songDetail={songDetail}
                           seed={seed}
-                          onClose={() => {
-                            setExpandedRow(null);
-                            setSongDetail(null);
-                          }}
                         />
                       </td>
                     </tr>
                   )}
-                </React.Fragment>
+                </Fragment>
               ))}
             </tbody>
           </table>

@@ -9,8 +9,7 @@ const PORT = process.env.PORT || 3001;
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  // Add your Netlify URL here after deployment:
-  // 'https://your-site-name.netlify.app'
+  'https://task5i.netlify.app'  // Production Netlify URL
 ];
 
 // Add environment variable for frontend URL if provided

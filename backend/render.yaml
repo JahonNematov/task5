@@ -1,0 +1,15 @@
+# Render.com Blueprint Configuration
+# Bu fayl Render.com uchun avtomatik deploy sozlamalarini o'z ichiga oladi
+
+services:
+  - type: web
+    name: music-store-backend
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production

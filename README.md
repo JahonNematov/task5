@@ -185,12 +185,32 @@ cd frontend
 npm run build
 ```
 
+## Deployment
+
+### Quick Deploy (5 minutes)
+See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for rapid deployment instructions.
+
+### Full Deployment Guide
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed step-by-step deployment guide including:
+- GitHub setup
+- Render.com (Backend)
+- Netlify (Frontend)
+- Environment variables
+- Custom domains
+- Troubleshooting
+
+### Production URLs
+- **Frontend**: Deploy to Netlify
+- **Backend**: Deploy to Render.com
+- **Database**: Not required (in-memory generation)
+
 ## Notes
 
 - No authentication required
 - No database needed (all data generated in-memory)
 - Data generation happens server-side
 - Frontend receives pre-generated data
+- Free hosting available on Render.com + Netlify
 
 ## License
 
